@@ -56,3 +56,51 @@ Follow these steps to set up the project locally.
 ```bash
 git clone [https://github.com/YOUR_USERNAME/CareerAgent-OS.git](https://github.com/YOUR_USERNAME/CareerAgent-OS.git)
 cd CareerAgent-OS
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Configure API Key
+Important: This project uses the Groq API for high-speed inference.
+
+Get a free API Key from Groq Console.
+
+Open the file llm.py.
+
+Replace the placeholder with your key in the "llm.py" file
+```bash
+MY_API_KEY = "gsk_..." # Paste your key here
+```
+
+### 4. Run the appilication
+```bash
+streamlit run app.py
+```
+
+### 📖 Usage Guide
+Phase 1: Strategic Planning
+Launch the app.
+
+In the Left Panel, enter your target role (e.g., "Full Stack Developer").
+
+Click "Generate Roadmap".
+
+The Agent scans the web for 2025 skills and creates a personalized 6-month plan.
+
+Phase 2: The Feedback Loop (The "Agentic" Part)
+After studying, go to the Right Panel.
+
+Write a reflection in the journal (e.g., "I tried building the API but kept getting 404 errors and forgot how routes work.").
+
+Click "Analyze Progress".
+
+The system will:
+
+Diagnose the specific gap (e.g., Application Gap).
+
+Update your "Mastery Score."
+
+Dynamically rewrite your next steps (e.g., assigning debugging drills instead of new theory).
+
