@@ -1,6 +1,9 @@
 # 🎓 CareerAgent OS: The Agentic AI Career Mentor
 
-![Project Banner](https://img.shields.io/badge/Status-Hackathon_Submission-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge) ![Llama3](https://img.shields.io/badge/AI-Llama_3_70B-purple?style=for-the-badge)
+![Project Status](https://img.shields.io/badge/Status-Hackathon_Submission-success?style=for-the-badge&color=2ea44f)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Llama3](https://img.shields.io/badge/AI-Llama_3_70B-purple?style=for-the-badge)
 
 ### **Team Name:** [Insert Your Team Name Here]
 **Problem Statement ID:** Agentic AI - Career Development Assistant
@@ -51,55 +54,5 @@ Follow these steps to set up the project locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/](https://github.com/)[YOUR_USERNAME]/CareerAgent-OS.git
+git clone [https://github.com/YOUR_USERNAME/CareerAgent-OS.git](https://github.com/YOUR_USERNAME/CareerAgent-OS.git)
 cd CareerAgent-OS
-
-2. Install Dependencies
-Bash
-
-pip install -r requirements.txt
-3. Configure API Key
-Important: This project uses the Groq API for high-speed inference.
-
-Get a free API Key from Groq Console.
-
-Open the file llm.py.
-
-Replace the placeholder with your key:
-
-Python
-
-# Inside llm.py
-MY_API_KEY = "gsk_..." # Paste your key here
-4. Run the Application
-Bash
-
-streamlit run app.py
-📖 Usage Guide
-Phase 1: Strategic Planning
-Launch the app.
-
-In the Left Panel, enter your target role (e.g., "Full Stack Developer").
-
-Click "Generate Roadmap".
-
-The Agent scans the web for 2025 skills and creates a personalized 6-month plan.
-
-Phase 2: The Feedback Loop (The "Agentic" Part)
-After studying, go to the Right Panel.
-
-Write a reflection in the journal (e.g., "I tried building the API but kept getting 404 errors and forgot how routes work.").
-
-Click "Analyze Progress".
-
-The system will:
-
-Diagnose the specific gap (e.g., Application Gap).
-
-Update your "Mastery Score."
-
-Dynamically rewrite your next steps (e.g., assigning debugging drills instead of new theory).
-
-
-
-
