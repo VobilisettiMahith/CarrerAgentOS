@@ -1,0 +1,14 @@
+{
+    "user_goal": "AI Engineer",
+    "logs": [
+        {
+            "action": "weekly_review",
+            "metrics": {
+                "score": 40,
+                "focus_gap": "RECALL_GAP",
+                "reasoning": "I detected terms like 'forgot the syntaxes' which indicates a recall issue.",
+                "raw_input": "i tried building the app but i forgot the syntaxes"
+            }
+        }
+    ]
+}
