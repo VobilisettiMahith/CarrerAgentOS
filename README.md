@@ -1,7 +1,7 @@
 # 🎓 CareerAgent OS: Cognitive AI Career Mentor
 
-### **Team Name: [Your Team Name]**
-**Problem Statement:** [Insert your Problem Statement ID/Title here]
+### **Team Name: Meta Minds**
+**Problem Statement:**The Career Decision Gap
 
 ---
 
@@ -34,4 +34,5 @@ CareerAgent OS is an **Agentic AI System** designed to guide students through th
 1. **Clone the Repository**
    ```bash
    git clone [https://github.com/your-username/CareerAgent-OS.git](https://github.com/your-username/CareerAgent-OS.git)
+
    cd CareerAgent-OS
