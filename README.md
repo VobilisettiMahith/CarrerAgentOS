@@ -80,29 +80,30 @@ streamlit run app.py
 ```
 
 ### 📖 Usage Guide
-* **Phase 1: Strategic Planning**
-Launch the app.
+**Phase 1: Strategic Planning**
+* Launch the app.
 
-In the Left Panel, enter your target role (e.g., "Full Stack Developer").
+* In the Left Panel, enter your target role (e.g., "Full Stack Developer").
 
-Click "Generate Roadmap".
+* Click "Generate Roadmap".
 
-The Agent scans the web for 2025 skills and creates a personalized 6-month plan.
+* The Agent scans the web for 2025 skills and creates a personalized 6-month plan.
 
-* **Phase 2: The Feedback Loop (The "Agentic" Part)**
-After studying, go to the Right Panel.
+**Phase 2: The Feedback Loop (The "Agentic" Part)**
+* After studying, go to the Right Panel.
 
-Write a reflection in the journal (e.g., "I tried building the API but kept getting 404 errors and forgot how routes work.").
+* Write a reflection in the journal (e.g., "I tried building the API but kept getting 404 errors and forgot how routes work.").
 
-Click "Analyze Progress".
+* Click "Analyze Progress".
 
-The system will:
+* The system will:
 
-Diagnose the specific gap (e.g., Application Gap).
+* Diagnose the specific gap (e.g., Application Gap).
 
-Update your "Mastery Score."
+* Update your "Mastery Score."
 
-Dynamically rewrite your next steps (e.g., assigning debugging drills instead of new theory).
+* Dynamically rewrite your next steps (e.g., assigning debugging drills instead of new theory).
+
 
 
 
